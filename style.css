@@ -1,0 +1,28 @@
+.hebergement{
+
+  background-color: #F2F2F2;
+
+  width:  100%;
+
+  margin-left: 3%;
+
+
+}
+
+
+.populaire{
+
+  background-color: #F2F2F2;
+
+  width: 100%;
+
+  margin-left: 3%;
+
+
+}
+
+.card_hergement{
+
+display: flex;
+
+}
