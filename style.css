@@ -1,3 +1,9 @@
+
+img{
+
+  object-fit: cover;
+}
+
 .hebergement{
 
   background-color: #F2F2F2;

@@ -1,0 +1,69 @@
+.box_populaire{
+
+
+  width: 100%;
+height: 100%;
+
+
+}
+
+.image_populaire{
+
+  width: 13vh;
+height: 13vh;
+  border-top-left-radius: 14px 14px;
+  border-bottom-left-radius: 14px 14px;
+  margin-left: 2%;
+
+}
+
+.div_image_populaire{
+
+  height: 100%;
+
+}
+
+.card_populaire{
+
+  width: 94%;
+
+  background-color: white;
+  margin-left: 3%;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  border-top-left-radius: 14px;
+  border-radius: 14px;
+margin-top: 3%;
+
+}
+
+.position_text_populaire{
+
+  position: relative;
+right: -6%;
+
+}
+
+.position_start_populaire{
+
+  position: relative;
+  bottom: -30%;
+
+}
+
+.position_text_nuit_populaire{
+
+  position: relative;
+  top: 10%;
+
+}
+
+.div_text_populaire{
+
+height: 50%;
+
+}
+
+}
+
+}
