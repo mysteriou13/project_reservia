@@ -1,0 +1,34 @@
+header{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+nav{
+
+width: 31%;
+
+}
+
+.image_titre{
+
+margin-left: 5vh;
+
+}
+
+.image_reservia{
+
+width: 15vh;
+
+}
+
+
+.flex_nav{
+
+display: flex;
+list-style-type: none;
+justify-content: space-around;
+
+
+}
