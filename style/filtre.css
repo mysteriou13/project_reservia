@@ -1,0 +1,71 @@
+
+.div_text_filtre{
+
+margin-right: 11%;
+
+padding-top: 4%;
+
+}
+
+.filtre{
+
+  display: flex;
+  border: none;
+  width: 18%;
+  margin-left: 3%;
+
+}
+
+.bordure_icone{
+
+background-color:#DEEBFF;
+
+  height: 45px;
+  width: 45px;
+
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: -10%;
+  transform: scale(1.1);
+
+}
+
+.icone{
+  position: relative;
+  top: 30%;
+  left: 27%;
+
+  display: flex;
+
+  border-radius: 25px;
+
+  color: #0065fc;
+
+}
+
+.text_icone{
+
+  padding-top: 10%;
+}
+
+.bordure_filtre{
+
+  display: flex;
+
+  border: 4px solid #F2F2F2;
+
+  padding-right: 19%;
+  border-radius: 100px;
+
+  margin-right: 15%;
+
+
+}
+
+.container{
+    padding: 50px;
+
+    /* TAILLE ESPACE DE TRAVAIL */
+    width: 400px;
+}
