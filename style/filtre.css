@@ -1,4 +1,39 @@
 
+.position_info_icon{
+
+
+position: relative;
+left: 210%;
+color: #0065fc;
+top: 11%;
+
+
+}
+.position_text_info{
+
+
+  position: absolute;
+  top: 19%;
+  left: 6%;
+
+}
+.info{
+
+display:flex;
+
+border:1px solid #F2F2F2;
+border-radius: 50%;
+   width: 30px;
+   height: 30px;
+
+   position: relative;
+   left: 3%;
+
+
+}
+
+
+
 .div_text_filtre{
 
 margin-right: 11%;
