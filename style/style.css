@@ -4,11 +4,19 @@ img{
   object-fit: cover;
 }
 
+.padding_hergement{
+  
+  padding-top: 5%;
+  padding-bottom: 3%;
+
+
+}
+
 .hebergement{
 
   background-color: #F2F2F2;
 
-  width:  100%;
+  width:  165%;
 
   margin-left: 3%;
 
@@ -24,6 +32,9 @@ img{
 
   margin-left: 1%;
 
+ margin-right: 3%;
+
+padding-bottom: 2%;
 
 }
 
@@ -36,11 +47,12 @@ display: flex;
 
 .bordure_card_hergement{
   background-color: white;
-  width: 100%;
-  height: 100%;
+  width: 27%;
+
   border: 1px solid white;
   border-radius: 20px 20px;
-
+  margin-left: 5%;
+  margin-bottom: 5%;
 }
 
 .padding_card_hergement{
@@ -52,6 +64,8 @@ padding: 2%;
 .box_card_hergement{
 
 display: flex;
+
+
 
 }
 .height_image_hergement{

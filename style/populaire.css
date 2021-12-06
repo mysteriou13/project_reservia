@@ -9,8 +9,8 @@ height: 100%;
 
 .image_populaire{
 
-  width: 13vh;
-height: 13vh;
+  width: 18vh;
+  height: 18vh;
   border-top-left-radius: 14px 14px;
   border-bottom-left-radius: 14px 14px;
   margin-left: 2%;
@@ -25,15 +25,15 @@ height: 13vh;
 
 .card_populaire{
 
-  width: 94%;
-
+  width: 86%;
   background-color: white;
-  margin-left: 3%;
+  margin-left: 7%;
   padding-top: 1%;
   padding-bottom: 1%;
   border-top-left-radius: 14px;
   border-radius: 14px;
-margin-top: 3%;
+  margin-top: 3%;
+  height: 27%;
 
 }
 
