@@ -1,16 +1,17 @@
 .box_populaire{
 
-
   width: 100%;
-height: 100%;
+  height: 100%;
 
+  position: relative;
+  top: 5%;
 
 }
 
 .image_populaire{
 
-  width: 18vh;
-  height: 18vh;
+  width: 16vh;
+  height: 16vh;
   border-top-left-radius: 14px 14px;
   border-bottom-left-radius: 14px 14px;
   margin-left: 2%;
@@ -33,7 +34,8 @@ height: 100%;
   border-top-left-radius: 14px;
   border-radius: 14px;
   margin-top: 3%;
-  height: 27%;
+  height: 24%;
+  margin-bottom: 6%;
 
 }
 
@@ -47,7 +49,7 @@ right: -6%;
 .position_start_populaire{
 
   position: relative;
-  bottom: -30%;
+  bottom: -24%;
 
 }
 
@@ -61,6 +63,8 @@ right: -6%;
 .div_text_populaire{
 
 height: 50%;
+margin-top: 6%;
+
 
 }
 
