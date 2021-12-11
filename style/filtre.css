@@ -1,4 +1,13 @@
 
+
+.div_info{
+
+  height: 10vh;
+  position: relative;
+  top: 2%;
+
+}
+
 .position_info_icon{
 
 
@@ -13,21 +22,20 @@ top: 11%;
 
 
   position: absolute;
-  top: 19%;
+  top: 37%;
   left: 6%;
 
 }
 .info{
 
-display:flex;
-
-border:1px solid #F2F2F2;
-border-radius: 50%;
-   width: 30px;
-   height: 30px;
-
-   position: relative;
-   left: 3%;
+  display: flex;
+  border: 1px solid #F2F2F2;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  position: relative;
+  left: 3%;
+  top: 33%;
 
 
 }
