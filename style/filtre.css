@@ -1,4 +1,31 @@
 
+.width_eco{
+
+  font-size: 20px;
+  margin-left: 3%;
+ width: 17vh;
+
+}
+.width_famille{
+
+  width: 15vh;
+  margin-left: 4%;
+  font-size: 23px;
+}
+.width_romantique {
+
+  width: 17vh;
+margin-left: 2%;
+font-size: 20px;
+
+}
+
+.width_animaux{
+
+  width: 22vh;
+  font-size: 19px;
+
+}
 
 .div_info{
 
@@ -54,7 +81,7 @@ padding-top: 4%;
 
   display: flex;
   border: none;
-  width: 18%;
+  width: 28%;
   margin-left: 3%;
 
 }
@@ -90,7 +117,7 @@ background-color:#DEEBFF;
 .text_icone{
 
   padding-top: 5%;
-  width: 17vh;
+
 
 }
 
@@ -103,10 +130,15 @@ background-color:#DEEBFF;
 
   border-radius: 100px;
 
-  margin-right: 15%;
+  margin-right: 5%;
 
   width: 73%;
 
+}
+
+.bordure_filtre:hover {
+
+background-color: #DEEBFF;
 
 }
 
