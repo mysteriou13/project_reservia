@@ -1,142 +1,172 @@
 <!DOCTYPE html>
 
-<html>
+<html lang = "fr">
 
 <head>
   <meta charset="UTF-8">
-<link rel="stylesheet" href="./style/style.css">
+  <link rel="stylesheet" href="./style/style.css">
 
-<link rel="stylesheet" href="./style/header.css">
+  <link rel="stylesheet" href="./style/header.css">
 
-<link rel="stylesheet" href="./style/populaire.css">
+  <link rel="stylesheet" href="./style/populaire.css">
 
-<link rel="stylesheet" href="./style/recherche.css">
+  <link rel="stylesheet" href="./style/recherche.css">
 
-<link rel="stylesheet" href="./style/filtre.css">
+  <link rel="stylesheet" href="./style/filtre.css">
+
+  <link rel="stylesheet" href="./style/nav.css">
 
 
-    <script src="https://kit.fontawesome.com/228bba97b9.js" crossorigin="anonymous"></script>
+  <title>Reservia</title>
+  <!-- Fonts 'Raleway'-->
+<link rel="preconnect" href="https://fonts.gstatic.com" />
+<link
+href="https://fonts.googleapis.com/css2?family=Raleway:wght@400;700&display=swap"
+rel="stylesheet"
+/>
+  <script src="https://kit.fontawesome.com/228bba97b9.js" crossorigin="anonymous"></script>
 
-  </head>
+
+</head>
 
 <body>
 
-<header>
+  <header>
 
-<div>
+    <div>
 
-<div class = "image_titre">
-  <img  class = "image_reservia" src = "./Reservia/Project_2/images/logo/Reservia@3x.png">
- </div>
-
-
-
-</div>
-
-<nav>
-  <ul class = "flex_nav">
-
-    <li>hergement </li>
-
-     <li> activité </li>
-
-     <li> S'inscrire </li>
+      <div class = "image_titre">
+        <img  alt = "Reservia" class = "image_reservia" src = "./Reservia/Project_2/images/logo/Reservia@3x.png">
+      </div>
 
 
-</ul>
 
-</nav>
+    </div>
+
+    <div class = "div_nav">
+
+      <div style = "display:flex">
+
+        <div>
+          nav bar1
+        </div>
+
+        <div>
+          nav bar 2
+        </div>
+
+        <div>
+
+          nav bar 3
+
+        </div>
+
+      </div>
+
+      <div class = "nav_box">
+        <nav>
+          <ul class = "flex_nav">
+
+            <li>hergement </li>
+
+            <li> activité </li>
+
+            <li> S'inscrire </li>
+
+
+          </ul>
+
+        </nav>
+
+      </div>
+    </div>
+
+
+
 
   </header>
 
-<div class = "search_hebergement" >
+  <div class = "search_hebergement" >
 
 
-  <!-- trouver hergement -->
+    <!-- trouver hergement -->
 
 
   </div>
 
-<div class = "rechercher">
+  <div class = "rechercher">
 
-  <!-- input champs de recherche-->
+    <!-- input champs de recherche-->
 
-<div class = "text_header">
+    <div class = "text_header">
 
-<div>
-  <strong> Trouver votre hergement pour des vacance de reve</strong>
-  
-</div>
+      <div>
+        <h1> Trouver votre hergement pour des vacance de reve</h1>
 
-<div>
-  En plein centre ville ou plein nature
-</div>
+      </div>
 
-</div>
+      <div>
+        <p> En plein centre ville ou plein nature</p>
+      </div>
 
-  <div class = "container_search">
+    </div>
 
-  <div class = "div_icone_map">
 
-  <i class="fas fa-map-marker-alt position_icone_map" ></i>
 
+    <div class = "container_search">
+          <form method = "POST" action = "#">
+          <i class="fas fa-map-marker-alt position_icone_map" ></i>
+          <input type = "search" name = "rechercher" class = "input_rechercher" placeholder = "Marseille, France" id = "rechercher" />
+        <button id = "button" type = "button" class ="button_search">
+                <span class ="secret"></span> <i class="fas fa-search" id = "search" ></i>
+               <span id = "test_rechercher"> Rechercher </span>
+        </button>
+    </form>
+    </div>
   </div>
 
 
-  <div class = "div_recherche" >champ recherche</div>
 
-  <div class = "container_buttom_search">
 
-  <button   class = "button_search">Rechercher</button>
+  <div class = "filtre">
+
+    <!-- Filtre -->
+
+    <div class = "div_text_filtre"> Filtre </div>
+
+    <div  class = "bordure_filtre">
+
+      <div class = "bordure_icone">
+
+        <i class = "icone fas fa-money-bill-wave"> </i>
+      </div>
+
+      <div   class = "text_icone width_eco" >
+
+        <strong> Économique</strong>
+
+      </div>
+
+
+
 
   </div>
 
-  </div>
+  <div  class = "bordure_filtre">
 
-</div>
+    <div class = "bordure_icone">
 
+      <i class = "icone fas fa-child"> </i>
+    </div>
 
+    <div   class = "text_icone width_famille" >
 
+      <strong> Familial </strong>
 
-<div class = "filtre">
-
-<!-- Filtre -->
-
-<div class = "div_text_filtre"> Filtre </div>
-
-<div  class = "bordure_filtre">
-
-<div class = "bordure_icone">
-
-<i class = "icone fas fa-money-bill-wave"> </i>
-</div>
-
-<div   class = "text_icone width_eco" >
-
-<strong> Économique</strong>
-
-</div>
+    </div>
 
 
-</button>
 
-</div>
-
-<div  class = "bordure_filtre">
-
-<div class = "bordure_icone">
-
-<i class = "icone fas fa-child"> </i>
-</div>
-
-<div   class = "text_icone width_famille" >
-
-<strong> Familial </strong>
-
-</div>
-
-
-</button>
 
 </div>
 
@@ -144,51 +174,51 @@
 
 <div  class = "bordure_filtre">
 
-<div class = "bordure_icone">
+  <div class = "bordure_icone">
 
-<i class = "icone fas fa-heart"> </i>
-</div>
+    <i class = "icone fas fa-heart"> </i>
+  </div>
 
-<div   class = "text_icone width_romantique" >
+  <div   class = "text_icone width_romantique" >
 
-<strong> Romantique </strong>
+    <strong> Romantique </strong>
 
-</div>
+  </div>
 
 
-</button>
+
 
 </div>
 
 
 <div  class = "bordure_filtre">
 
-<div class = "bordure_icone">
+  <div class = "bordure_icone">
 
-<i class = "icone fas fa-dog"> </i>
-</div>
+    <i class = "icone fas fa-dog"> </i>
+  </div>
 
-<div   class = "text_icone width_animaux" >
+  <div   class = "text_icone width_animaux" >
 
-<strong> Animaux autorisé </strong>
-
-</div>
-
-
-</button>
-
-</div>
-
+    <strong> Animaux autorisé </strong>
 
   </div>
+
+
+
+
+</div>
+
+
+</div>
 
 <div class = "div_info">
 
-<div class = "info ">
+  <div class = "info ">
 
-<!-- bulle info -->
+    <!-- bulle info -->
 
-<div>  <i class="fas fa-info position_info_icon "></i>  </div>
+    <div>  <i class="fas fa-info position_info_icon "></i>  </div>
 
   </div>
 
@@ -204,601 +234,600 @@
 
 <div class = "card_hergement">
 
-<div class = "hebergement">
+  <div class = "hebergement">
 
     hergement
 
-<!--  hebergement -->
-<div class = "padding_hergement">
+    <!--  hebergement -->
+    <div class = "padding_hergement">
 
 
-<div  class = "box_card_hergement">
+      <div  class = "box_card_hergement">
 
 
-  <div class = "bordure_card_hergement">
+        <div class = "bordure_card_hergement">
 
-    <div class = "padding_card_hergement">
-    <div  class = "height_image_hergement">
-    <img src = "./Reservia/Project_2/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class = "image_herbergement">
-  </div>
+          <div class = "padding_card_hergement">
+            <div  class = "height_image_hergement">
+              <img  alt = "Auberge de la cannebiere" src = "./Reservia/Project_2/images/hebergements/3_medium/marcus-loke-WQJvWU_HZFo-unsplash.jpg" class = "image_herbergement">
+            </div>
 
-  <div  class = "text_herbergement">
+            <div  class = "text_herbergement">
 
-  <div>
-    <strong> Auberge de la cannebiere</strong>
-  </div>
+              <div>
+                <strong> Auberge de la cannebiere</strong>
+              </div>
 
-  <div>
-  Nuit a partir de <strong> 25€ </strong>
-  </div>
+              <div>
+                Nuit a partir de <strong> 25€ </strong>
+              </div>
 
-    <div  class = "flex">
+              <div  class = "flex">
 
-    <div>
-      <i  class="fas fa-star  star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star  star_blue"></i>
+                </div>
 
-    <div>
-      <i class="fas fa-star star_blue"></i>
-    </div>
+                <div>
+                  <i class="fas fa-star star_blue"></i>
+                </div>
 
-    <div>
+                <div>
 
-      <i class="fas fa-star star_blue"></i>
-    </div>
+                  <i class="fas fa-star star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star star_grey"></i>
+                <div>
+                  <i  class="fas fa-star star_grey"></i>
 
-    </div>
+                </div>
 
-    </div>
-    </div>
-  </div>
+              </div>
+            </div>
+          </div>
 
-  </div>
+        </div>
 
-  <div class = "bordure_card_hergement">
+        <div class = "bordure_card_hergement">
 
-    <div class = "padding_card_hergement">
-    <div class = "height_image_hergement">
-    <img src = "./Reservia/Project_2/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class = "image_herbergement">
-  </div>
+          <div class = "padding_card_hergement">
+            <div class = "height_image_hergement">
+              <img  alt = " Hôtel du port" src = "./Reservia/Project_2/images/hebergements/3_medium/fred-kleber-gTbaxaVLvsg-unsplash.jpg" class = "image_herbergement">
+            </div>
 
-  <div class = "text_herbergement">
+            <div class = "text_herbergement">
 
-  <div>
-    <strong> Hôtel du port </strong>
-  </div>
+              <div>
+                <strong> Hôtel du port </strong>
+              </div>
 
-  <div>
-  Nuit a partir de <strong> 52€ </strong>
-  </div>
+              <div>
+                Nuit a partir de <strong> 52€ </strong>
+              </div>
 
-    <div  class = "flex">
+              <div  class = "flex">
 
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
+                <div>
 
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                  <i class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
+                <div>
+                  <i  class="fas fa-star blue_dark star_blue"></i>
 
-    </div>
+                </div>
 
-    </div>
-    </div>
-  </div>
+              </div>
+            </div>
+          </div>
 
-  </div>
+        </div>
 
 
 
 
-  <div class = "bordure_card_hergement">
+        <div class = "bordure_card_hergement">
 
-    <div class = "padding_card_hergement">
-    <div  class = "height_image_hergement">
-    <img src = "./Reservia/Project_2/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" class = "image_herbergement">
-  </div>
+          <div class = "padding_card_hergement">
+            <div  class = "height_image_hergement">
+              <img alt = "Hôtel Les mouettes" src = "./Reservia/Project_2/images/hebergements/3_medium/reisetopia-B8WIgxA_PFU-unsplash.jpg" class = "image_herbergement">
+            </div>
 
-  <div  class = "text_herbergement">
+            <div  class = "text_herbergement">
 
-  <div>
-    <strong> Hôtel Les mouettes </strong>
-  </div>
+              <div>
+                <strong> Hôtel Les mouettes </strong>
+              </div>
 
-  <div>
-  Nuit a partir de <strong> 76€ </strong>
-  </div>
+              <div>
+                Nuit a partir de <strong> 76€ </strong>
+              </div>
 
-    <div  class = "flex">
+              <div  class = "flex">
 
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
+                <div>
 
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                  <i class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
+                <div>
+                  <i  class="fas fa-star blue_dark star_blue"></i>
+                </div>
 
-    <div>
-      <i  class="fas fa-star blue_dark star_grey"></i>
+                <div>
+                  <i  class="fas fa-star blue_dark star_grey"></i>
 
-    </div>
+                </div>
 
-    </div>
-    </div>
-  </div>
+              </div>
+            </div>
+          </div>
 
-  </div>
+        </div>
 
-</div>
-
-
-
-
-
-
-<div>
-
-  <div class = "box_card_hergement">
-
-    <div class = "bordure_card_hergement">
-
-      <div class = "padding_card_hergement">
-      <div class = "height_image_hergement">
-      <img src = "./Reservia/Project_2/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class = "image_herbergement">
-    </div>
-
-    <div class = "text_herbergement">
-
-    <div>
-      <strong> Hôtel de la mer</strong>
-    </div>
-
-    <div>
-    Nuit a partir de <strong> 46€ </strong>
-    </div>
-
-      <div  class = "flex">
-
-      <div>
-        <i  class="fas fa-star blue_dark star_blue"></i>
       </div>
 
-      <div>
-        <i class="fas fa-star blue_dark star_blue"></i>
-      </div>
+
+
+
+
 
       <div>
 
-        <i class="fas fa-star blue_dark star_blue"></i>
+        <div class = "box_card_hergement">
+
+          <div class = "bordure_card_hergement">
+
+            <div class = "padding_card_hergement">
+              <div class = "height_image_hergement">
+                <img alt = " Hôtel de la mer" src = "./Reservia/Project_2/images/hebergements/3_medium/annie-spratt-Eg1qcIitAuA-unsplash.jpg" class = "image_herbergement">
+              </div>
+
+              <div class = "text_herbergement">
+
+                <div>
+                  <strong> Hôtel de la mer</strong>
+                </div>
+
+                <div>
+                  Nuit a partir de <strong> 46€ </strong>
+                </div>
+
+                <div  class = "flex">
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+
+          <div  class = "bordure_card_hergement">
+
+            <div class = "padding_card_hergement">
+              <div  class = "height_image_hergement">
+                <img  alt = " Auberge le pannier" src = "./Reservia/Project_2/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class = "image_herbergement">
+              </div>
+
+              <div  class = "text_herbergement">
+
+                <div>
+                  <strong> Auberge le pannier</strong>
+                </div>
+
+                <div>
+                  Nuit a partir de <strong> 23€ </strong>
+                </div>
+
+                <div  class = "flex">
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+          <div  class = "bordure_card_hergement">
+
+            <div class = "padding_card_hergement">
+              <div class = "height_image_hergement">
+                <img  alt = "Hôtel chez amina<" src = "./Reservia/Project_2/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class = "image_herbergement">
+              </div>
+
+              <div class = "text_herbergement">
+
+                <div>
+                  <strong> Hôtel chez amina</strong>
+                </div>
+
+                <div>
+                  Nuit a partir de <strong> 96€ </strong>
+                </div>
+
+                <div  class = "flex">
+
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+
+                  </div>
+
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+
+
       </div>
 
-      <div>
-        <i  class="fas fa-star blue_dark star_grey"></i>
-      </div>
 
-      <div>
-        <i  class="fas fa-star blue_dark star_grey"></i>
 
-      </div>
-
-      </div>
-      </div>
     </div>
 
-    </div>
+    Afficher plus
 
 
-    <div  class = "bordure_card_hergement">
-
-      <div class = "padding_card_hergement">
-      <div  class = "height_image_hergement">
-      <img src = "./Reservia/Project_2/images/hebergements/3_medium/nicate-lee-kT-ZyaiwBe0-unsplash.jpg" class = "image_herbergement">
-    </div>
-
-    <div  class = "text_herbergement">
-
-    <div>
-      <strong> Auberge le pannier</strong>
-    </div>
-
-    <div>
-    Nuit a partir de <strong> 23€ </strong>
-    </div>
-
-      <div  class = "flex">
-
-      <div>
-        <i  class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-        <i class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-
-        <i class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-        <i  class="fas fa-star blue_dark star_grey"></i>
-      </div>
-
-      <div>
-        <i  class="fas fa-star blue_dark star_grey"></i>
-
-      </div>
-
-      </div>
-      </div>
-    </div>
-
-    </div>
-
-    <div  class = "bordure_card_hergement">
-
-      <div class = "padding_card_hergement">
-      <div class = "height_image_hergement">
-      <img src = "./Reservia/Project_2/images/hebergements/3_medium/febrian-zakaria-M6S1WvfW68A-unsplash.jpg" class = "image_herbergement">
-    </div>
-
-    <div class = "text_herbergement">
-
-    <div>
-      <strong> Hôtel chez amina</strong>
-    </div>
-
-    <div>
-    Nuit a partir de <strong> 96€ </strong>
-    </div>
-
-      <div  class = "flex">
-
-
-      <div>
-        <i  class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-        <i class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-
-        <i class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-        <i  class="fas fa-star blue_dark star_blue"></i>
-      </div>
-
-      <div>
-        <i  class="fas fa-star blue_dark star_blue"></i>
-
-      </div>
-
-      </div>
-      </div>
-    </div>
-
-    </div>
 
   </div>
 
+
+
+
+
+  <div class = "populaire">
+
+    les plus populaire
+
+    <div class = "box_populaire">
+
+      <div class  = "card_populaire">
+
+        <div class = "div_image_populaire">
+
+          <div class  = "flex">
+
+            <div class = "flex">
+
+
+              <div>
+                <img  alt = "Hôtel le soleil du matin" class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
+              </div>
+
+              <div  class = "position_text_populaire">
+
+
+                <div class = "div_text_populaire">
+
+                  <div>
+                    Hôtel le soleil du <br> matin
+                  </div>
+
+
+                  <div class = "position_text_nuit_populaire">
+                    Nuit à  partir de 128€
+                  </div>
+
+
+                </div>
+
+
+                <div  class = "flex position_start_populaire">
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+      </div>
+
+      <div class  = "card_populaire">
+
+        <div class = "div_image_populaire">
+
+          <div class  = "flex">
+
+            <div class = "flex">
+
+
+              <div>
+                <img alt = "Au coeur de l'eau" class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg">
+              </div>
+
+              <div class = "position_text_populaire">
+
+                <div class = "div_text_populaire">
+
+                  <div>
+                    Au coeur de l'eau  <br>
+                    chambre d'hôte
+                  </div>
+
+                  <div class = "position_text_nuit_populaire">
+                    Nuit à  partir de 128€
+                  </div>
+
+                </div>
+
+
+                <div  class = "flex position_start_populaire">
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+
+      <div class  = "card_populaire">
+
+        <div class = "div_image_populaire">
+
+          <div class  = "flex">
+
+            <div class = "flex">
+
+
+              <div>
+                <img alt = "  Hôtel Tout bleu et  Blanc"  class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
+              </div>
+
+              <div class = "position_text_populaire">
+
+                <div class = "div_text_populaire">
+
+                  <div>
+                    Hôtel Tout bleu et <br> Blanc
+                  </div>
+
+                  <div class = "position_text_nuit_populaire">
+                    Nuit à  partir de 128€
+                  </div>
+
+                </div>
+
+
+
+
+
+                <div  class = "flex position_start_populaire">
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+
+                    <i class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_blue"></i>
+                  </div>
+
+                  <div>
+                    <i  class="fas fa-star blue_dark star_grey"></i>
+
+                  </div>
+
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+
+
+
+          </div>
+
+
+
+
+        </div>
+
+
+      </div>
+
+
+
+
+    </div>
+
+
+
+
+
+
+  </div>
 
 
 
 </div>
 
+<div class = "Activité">
 
-
-</div>
-
-Afficher plus
-
-
+  <!-- Activité -->
 
 </div>
 
 
-
-
-
-<div class = "populaire">
-
-  les plus populaire
-
-<div class = "box_populaire">
-
-  <div class  = "card_populaire">
-
-   <div class = "div_image_populaire">
-
-  <div class  = "flex">
-
-  <div class = "flex">
-
-
-    <div>
-  <img  class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg">
-  </div>
-
-  <div class = "position_text_populaire">
-
-
-<div class = "div_text_populaire">
-
-<div>
-    Hôtel le soleil du </br> matin
-</div>
-
-
-<div class = "position_text_nuit_populaire">
-  Nuit à  partir de 128€
-</div>
-
-
-  </div>
-
-
-    <div  class = "flex position_start_populaire">
-
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-
-    </div>
-
-    </div>
-
-  </div>
-
-  </div>
-
-
-
-
-
-
-  </div>
-
-
-
-
-  </div>
-
-
-   </div>
-
-  <div class  = "card_populaire">
-
-   <div class = "div_image_populaire">
-
-  <div class  = "flex">
-
-  <div class = "flex">
-
-
-    <div>
-  <img  class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/aw-creative-VGs8z60yT2c-unsplash.jpg">
-  </div>
-
-  <div class = "position_text_populaire">
-
-<div class = "div_text_populaire">
-
-<div>
-    Au coeur de l'eau  </br>
-    chambre d'hôte
-</div>
-
-<div class = "position_text_nuit_populaire">
-  Nuit à  partir de 128€
-</div>
-
-</div>
-
-
-    <div  class = "flex position_start_populaire">
-
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-
-      <i class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i  class="fas fa-star blue_dark star_blue"></i>
-    </div>
-
-    <div>
-      <i  class="fas fa-star blue_dark star_grey"></i>
-
-    </div>
-
-    </div>
-
-  </div>
-
-  </div>
-
-
-
-
-
-
-  </div>
-
-
-
-
-  </div>
-
-
-   </div>
-
-
-
-
-
-<div class  = "card_populaire">
-
- <div class = "div_image_populaire">
-
-<div class  = "flex">
-
-<div class = "flex">
-
-
-  <div>
-<img  class = "image_populaire" src = "./Reservia/Project_2/images/hebergements/3_medium/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
-</div>
-
-<div class = "position_text_populaire">
-
-<div class = "div_text_populaire">
-
-<div>
-  Hôtel Tout bleu et </br> Blanc
-</div>
-
-<div class = "position_text_nuit_populaire">
-  Nuit à  partir de 128€
-</div>
-
-</div>
-
-
-
-
-
-  <div  class = "flex position_start_populaire">
-
-  <div>
-    <i  class="fas fa-star blue_dark star_blue"></i>
-  </div>
-
-  <div>
-    <i class="fas fa-star blue_dark star_blue"></i>
-  </div>
-
-  <div>
-
-    <i class="fas fa-star blue_dark star_blue"></i>
-  </div>
-
-  <div>
-    <i  class="fas fa-star blue_dark star_blue"></i>
-  </div>
-
-  <div>
-    <i  class="fas fa-star blue_dark star_grey"></i>
-
-  </div>
-
-  </div>
-
-</div>
-
-</div>
-
-
-
-
-
-
-</div>
-
-
-
-
-</div>
-
-
- </div>
-
-
-
-
-</div>
-
-
-
-
-
-
- </div>
-
-
-
- </div>
-
- <div class = "Activité">
-
-<!-- Activité -->
-
-   </div>
-
-
-  </div>
 
 <footer>
 
-  </footer>
+</footer>
 
-  </body>
+</body>
 
 </html>
