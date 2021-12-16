@@ -42,11 +42,14 @@ margin-top: 12%;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
-  width: 100%;
-
-
+  width: 51%;
   position: relative;
   top: 30px;
+  left: 27%;
+
 }
+
+
+
 
 

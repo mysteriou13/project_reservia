@@ -1,23 +1,47 @@
 
+#hebergement ,#activite, #inscrire{
+
+   height: 33%;
+  position: relative;
+  top: -88%;
+  padding-top: 5%;
+
+  width: 12vh;
+  padding-left: 4%;
+
+}
+
+#hebergement:hover , #activite:hover, #inscrire:hover{
+
+  border-top: 1px solid blue;
+
+  color:blue;
+
+}
+
 .div_nav_bar{
   display: flex;
 
 }
 
-.nav_bar{
+#nav_bar_1{
 
   background-color: #0065fc;
 width: 137px;
 position: relative;
 left: 11%;
 height: 3px;
+display: none;
 
 }
 
 .nav_box{
 
-  width: 100%;
-
+  background-color: red;
+  width: 36%;
+  position: absolute;
+  left: 62%;
+  top: 0%;
 }
 
 .div_nav_box{
