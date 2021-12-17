@@ -18,11 +18,11 @@ img{
 .hebergement{
 
   background-color: #F2F2F2;
-
   width: 160%;
-
   margin-left: 3%;
-
+  border: 1px solid #F2F2F2;
+  border-radius: 28px;
+ margin-right: 1%;
 
 }
 
@@ -38,6 +38,9 @@ img{
  margin-right: 3%;
 
 padding-bottom: 2%;
+
+border: 1px solid #F2F2F2;
+border-radius: 28px;
 
 }
 
