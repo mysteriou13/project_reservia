@@ -68,6 +68,21 @@ margin-top: 6%;
 
 }
 
+.titre_populaire{
+
+  display: flex;
+justify-content: space-between;
+width: 84%;
+left: 9%;
+position: relative;
+left: 8%;
+margin-top: 6%;
+
 }
+
+.text_populaire{
+
+  font-weight: bold;
+font-size: 1.2em;
 
 }
