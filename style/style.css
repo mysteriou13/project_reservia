@@ -7,11 +7,13 @@ img{
   object-fit: cover;
 }
 
+
+
 .padding_hergement{
 
   padding-top: 5%;
   padding-bottom: 3%;
-  <div>
+  
 
 
 }
@@ -27,6 +29,15 @@ img{
 
 }
 
+.titre_herbergement{
+
+  position: relative;
+top: 5%;
+left: 3%;
+font-weight: bold;
+font-size: 1.3em;
+
+}
 
 .populaire{
 
