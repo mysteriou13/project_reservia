@@ -33,10 +33,25 @@ img{
 
   position: relative;
 top: 5%;
-left: 3%;
+left: 5%;
 font-weight: bold;
 font-size: 1.3em;
 
+}
+
+.taille_icone_populaire{
+
+font-size: 1.5em;
+  
+}
+
+.afficher_plus_hergement{
+
+  position: relative;
+left: 5%;
+top: -3%;
+font-weight: bold;
+  
 }
 
 .populaire{
@@ -71,10 +86,10 @@ display: flex;
 .bordure_card_hergement{
 
   background-color: white;
-  width: 30%;
+  width: 28%;
   border: 1px solid white;
   border-radius: 20px 20px;
-  margin-left: 2%;
+  margin-left: 4%;
   margin-bottom: 5%;
 
 
