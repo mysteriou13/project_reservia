@@ -1,5 +1,8 @@
 body{
 font-family: Raleway;
+
+width: 97%;
+
 }
 
 img{
@@ -42,7 +45,7 @@ font-size: 1.3em;
 .taille_icone_populaire{
 
 font-size: 1.5em;
-  
+
 }
 
 .afficher_plus_hergement{
@@ -62,7 +65,6 @@ font-weight: bold;
 
   margin-left: 1%;
 
- margin-right: 3%;
 
 padding-bottom: 2%;
 
@@ -80,6 +82,7 @@ display: flex;
 .box_sadown{
   
   box-shadow: 0px 0px 16px grey;
+  border-radius: 32px;
 
 }
 
