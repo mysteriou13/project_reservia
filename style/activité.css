@@ -42,7 +42,7 @@ margin-right: 1%;
 
 }
 
-.img_fort{
+.img_activiter{
 
     border-top-left-radius: 30px;
 border-top-right-radius: 30px;
@@ -50,6 +50,11 @@ border-top-right-radius: 30px;
 width: 100%;
 height: 100%;
 
+}
+
+.img_fort{
+
+    height: 89%;
 }
 
 .titre_activiter{
@@ -66,5 +71,50 @@ height: 100%;
     top: 3%;
     left: 6%;
     font-weight: bold;
+
+}
+
+.card_fort{
+
+    height: 54%;
+    box-shadow: 0px 0px 16px grey;
+    border: 1px solid white;
+    border-radius: 31px;
+
+}
+
+.text_fort{
+
+    position: relative;
+    top: -2%;
+    left: 8%;
+    font-weight: bold;
+
+}
+
+.card_frioul{
+
+    margin-top: 10%;
+    height: 38%;
+    box-shadow: 0px 0px 16px grey;
+    border: 1px solid white;
+   border-radius: 31px;
+
+
+}
+
+.img_frioul{
+
+    height: 83%;
+
+}
+
+.text_frioul{
+
+    position: relative;
+    top: -8%;
+    left: 5%;
+    font-weight: bold;
+}
 
 }
