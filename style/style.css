@@ -52,7 +52,7 @@ font-size: 1.5em;
 
   position: relative;
 left: 5%;
-top: -3%;
+top: -6%;
 font-weight: bold;
   
 }
@@ -61,7 +61,7 @@ font-weight: bold;
 
   background-color: #F2F2F2;
 
-  width: 100%;
+  width: 59%;
 
   margin-left: 1%;
 
@@ -76,6 +76,8 @@ border-radius: 28px;
 .card_hergement{
 
 display: flex;
+
+height: 76vh;
 
 }
 
