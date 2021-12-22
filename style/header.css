@@ -40,12 +40,10 @@ margin-top: 12%;
 .flex_nav{
 
   display: flex;
-  list-style-type: none;
-  
-  width: 55%;
-  position: relative;
-  top: 35%;
-  left: 47%;
+list-style-type: none;
+position: relative;
+top: 35%;
+left: 35%;-
 
 }
 

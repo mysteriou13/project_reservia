@@ -1,21 +1,26 @@
 
 #hebergement ,#activite, #inscrire{
 
-   height: 33%;
-  position: relative;
-  top: -88%;
-  padding-top: 5%;
-
-  width: 12vh;
-  padding-left: 4%;
+  height: 33%;
+position: relative;
+top: -88%;
+padding-top: 5%;
+width: 18vh;
+padding-left: 4%;
 
 }
 
-#hebergement:hover , #activite:hover, #inscrire:hover{
+#hebergement:hover , #activite:hover{
 
   border-top: 1px solid blue;
 
   color:blue;
+
+}
+
+#inscrire{
+
+  color:#0065fc;
 
 }
 
