@@ -71,7 +71,6 @@ top: 11%;
 
 .div_text_filtre{
 
-margin-right: 11%;
 
 padding-top: 4%;
 
@@ -81,7 +80,7 @@ padding-top: 4%;
 
   display: flex;
   border: none;
-  width: 28%;
+
   margin-left: 3%;
 
 }
@@ -132,7 +131,8 @@ background-color:#DEEBFF;
 
   margin-right: 5%;
 
-  width: 73%;
+  width: 15%;
+  height: 5vh;
 
 }
 
