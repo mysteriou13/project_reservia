@@ -71,4 +71,15 @@ body{
         color: blue;
     }
 
+      .titre_1{
+
+    width: 82%;
+    font-size: 1.4em;
+    left: 20%;
+    position: relative;
+    left: 2%;
+
+      }
+
+
 }
