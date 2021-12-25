@@ -9,5 +9,66 @@ body{
 
     }
 
+    .image_reservia {
+        width: 11vh;
+        position: relative;
+        left: -22%;
+        position: relative;
+        top: 46%;
+    }
+
+    #inscrire{
+
+        order: 1;
+
+        height: 33%;
+        position: relative;
+        top: -186%;
+        padding-top: 5%;
+        padding-left: 4%;
+       left: -10%;
+    }
+
+    #hebergement, #activite {
+
+        top: -93%;
+
+    }
+
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+        
+        position: relative;
+        left: -2%;    
+    }
+
+    .flex_nav {
+
+        display: flex;
+        list-style-type: none;
+        position: relative;
+        top: 84%;
+        left: -29%;
+       
+    }
+
+
+    #hebergement, #activite, #inscrire {
+        
+        height: 76%;
+        position: relative;
+        padding-top: 5%;
+        padding-left: 4%;
+
+    }
+
+    #hebergement:hover, #activite:hover {
+
+        border-top:  none;
+        border-bottom: 3px solid blue;
+        color: blue;
+    }
 
 }

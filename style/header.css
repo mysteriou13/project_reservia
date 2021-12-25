@@ -7,10 +7,10 @@ header{
 
 nav{
 
-  width: 100%;
   display: flex;
   justify-content: space-around;
-
+  position: relative;
+  left: 5%;
 
 }
 
@@ -42,8 +42,7 @@ margin-top: 12%;
   display: flex;
 list-style-type: none;
 position: relative;
-top: 35%;
-left: 35%;-
+top: -25%;
 
 }
 
