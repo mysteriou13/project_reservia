@@ -45,9 +45,12 @@ font-size: 20px;
 
 .div_info{
 
-  height: 10vh;
-  position: relative;
-  top: 2%;
+ display: flex;
+
+ margin-left: 3%;
+
+ margin-bottom: 2%;
+margin-top: 2%;
 
 }
 
@@ -63,10 +66,7 @@ top: 11%;
 }
 .position_text_info{
 
-
-  position: absolute;
-  top: 37%;
-  left: 5%;
+  margin-left: 1%;
 
 }
 .info{
@@ -76,9 +76,7 @@ top: 11%;
   border-radius: 50%;
   width: 30px;
   height: 30px;
-  position: relative;
-  left: 3%;
-  top: 33%;
+
 
 
 }

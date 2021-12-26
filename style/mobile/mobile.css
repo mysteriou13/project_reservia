@@ -179,3 +179,16 @@ height: 6vh;
     padding-top: 3%;
     padding-bottom: 3%;
 }
+
+.div_info {
+    display: flex;
+    margin-left: 3%;
+    margin-bottom: 6%;
+    margin-top: 6%;
+}
+
+.position_text_info {
+    width: 82%;
+    margin-left: 4%;
+
+}
