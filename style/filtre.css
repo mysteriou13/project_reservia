@@ -1,3 +1,19 @@
+.cadre_filtre {
+  display: block;
+  position: relative;
+  left: 3%;
+}
+
+.cadre_filtre{
+
+  display: flex;
+
+  position: relative;
+
+  left: 3%;
+
+
+}
 
 .width_eco{
 
@@ -73,7 +89,7 @@ top: 11%;
 
 
   padding-top: 1%;
-  margin-right: 3%;
+
 
 
 }
@@ -82,8 +98,9 @@ top: 11%;
 
   display: flex;
   border: none;
-
-  margin-left: 3%;
+  position: relative;
+  left: 3%;
+  width: 68%;
 
 }
 
@@ -131,9 +148,9 @@ background-color:#DEEBFF;
 
   border-radius: 100px;
 
-  margin-right: 2%;
+  margin-right: 4%;
 
-  width: 29vh;
+  width: 33vh;
   height: 5vh;
 
 }
@@ -149,4 +166,16 @@ background-color: #DEEBFF;
 
     /* TAILLE ESPACE DE TRAVAIL */
     width: 400px;
+}
+
+.box_filtre_1{
+
+  display: flex;
+
+}
+
+.box_filtre_2{
+
+ display: flex;
+
 }

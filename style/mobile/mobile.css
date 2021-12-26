@@ -82,4 +82,100 @@ body{
       }
 
 
+.button_search {
+    border-top-right-radius: 10px 10px;
+    border-bottom-right-radius: 10px 10px;
+    color: white;
+    cursor: pointer;
+    background-color: blue;
+    width: 20%;
+    height: 112%;
+    border: none;
+    position: relative;
+    top: -138%;
+    left: 77%;
+    border-radius: 10px;
+}
+
+ #text_rechercher{
+
+    display: none;
+
+}
+
+.position_icone_map {
+    background-color: #F2F2F2;
+    padding-left: 4%;
+    width: 29px;
+    height: 36px;
+    position: relative;
+    left: 2%;
+    top: -28%;
+    padding-left: ;
+    padding-top: 4%;
+    border-top-left-radius: 11px;
+    border-bottom-left-radius: 11px;
+}
+
+.filtre {
+    display: block;
+    border: none;
+    position: relative;
+    left: 3%;
+    width: 68%;
+}
+
+.cadre_filtre {
+    display: block;
+    position: relative;
+    left: 3%;
+}
+
+.box_filtre_2 {
+    display: block;
+    margin-top: 10%;
+}
+
+#romantique{
+
+    margin-bottom: 9%;
+
+    width: 25vh;
+height: 6vh;
+
+}
+
+
+.bordure_filtre{
+
+    display: flex;
+  
+    border: 2px solid #d9d9d9;
+  
+  
+    border-radius: 100px;
+  
+    margin-right: 4%;
+  
+    width: 33vh;
+    height: 6vh;
+  
+  }
+
+
+  .width_eco {
+    font-size: 17px;
+    margin-left: 3%;
+    width: 14vh;
+    margin-top: 2%;
+}
+
+.width_famille {
+    font-size: 17px;
+    margin-top: 3%;
+}
+  
+.div_text_filtre {
+    padding-top: 3%;
+    padding-bottom: 3%;
 }
