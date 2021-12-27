@@ -1,3 +1,15 @@
+
+#search{
+
+  display: none;
+
+}
+#text_rechercher{
+
+  display: block;
+
+}
+
 .input_rechercher{
 
   border-top: 2px solid #F2F2F2;
