@@ -9,6 +9,7 @@ body{
 
     }
 
+    
     .image_reservia {
         width: 11vh;
         position: relative;
@@ -191,4 +192,184 @@ height: 6vh;
     width: 82%;
     margin-left: 4%;
 
+}
+
+.card_hergement {
+    display: flex;
+    height: 76vh;
+    flex-direction: column-reverse;
+    position: absolute;
+    top: 142%;
+    width: 100%;
+}
+
+
+.box_activiter {
+    display: block;
+    height: 100%;
+    position: absolute;
+    top: 267%;
+    width: 100%;
+}
+
+.titre_activiter {
+    font-weight: bold;
+    position: absolute;
+    top: 255%;
+}
+
+footer {
+    background-color: #F2F2F2;
+    margin-top: 4%;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    position: absolute;
+    top: 522%;
+    display: block;
+}
+
+.populaire {
+    background-color: #F2F2F2;
+    width: 100%;
+    margin-left: 1%;
+    padding-bottom: 2%;
+    border: 1px solid #F2F2F2;
+    border-radius: 28px;
+    height: 76vh;
+    position: relative;
+    top: -93%;
+}
+
+.hebergement {
+    
+    background-color: white;
+    width: 93%;
+    margin-left: 3%;
+    border: 1px solid #F2F2F2;
+    border-radius: 28px;
+    margin-right: 1%;
+    position: absolute;
+    top: 11%;
+
+}
+
+.titre_herbergement {
+    position: relative;
+    top: 0%;
+    left: 5%;
+    font-weight: bold;
+    font-size: 1.3em;
+}
+
+.flex_hergement_mobile{
+
+    flex-direction: column;
+
+
+}
+
+.bordure_card_hergement {
+    background-color: white;
+    width: 91%;
+    border: 1px solid white;
+    border-radius: 20px 20px;
+    margin-left: 4%;
+    margin-bottom: 5%;
+}
+
+.Activiter {
+    width: 94%;
+    position: relative;
+    left: 4%;
+    margin-top: 5%;
+    height: 61vh;
+    top: 81%;
+    position: absolute;
+    top: 186%;
+}
+
+.div_activer_right {
+    width: 100%;
+    margin-right: 3%;
+    border-radius: 30px;
+}
+
+.div_activer_left {
+    width: 100%;
+}
+
+
+
+.height_mobile_fort {
+    height: 95%;
+    margin-top: 6%;
+}
+
+.card_frioul {
+    margin-top: 2%;
+    height: 44%;
+    box-shadow: 0px 0px 16px grey;
+    border: 1px solid white;
+    border-radius: 31px;
+}
+
+.position_mobile_parc{
+
+    position: relative;
+    top: -7%;
+    height: 44%;
+}
+
+.card_dame {
+    box-shadow: 0px 0px 16px grey;
+    height: 46%;
+    margin-bottom: 12%;
+    border-radius: 31px;
+    position: absolute;
+    top: 182%;
+    width: 100%;
+}
+
+.card_parc {
+    box-shadow: 0px 0px 16px grey;
+    height: 46%;
+    border-radius: 31px;
+    top: 23%;
+    position: absolute;
+    top: 232%;
+    width: 100%;
+}
+
+
+.img_activiter {
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    width: 100%;
+    height: 79%;
+}
+
+.card_fort {
+    height: 42%;
+    box-shadow: 0px 0px 16px grey;
+    border: 1px solid white;
+    border-radius: 31px;
+}
+
+.height_mobile_activiter{
+
+    height: 42%;
+
+}
+
+.text_bas_activiter {
+    position: relative;
+    top: -5%;
+    left: 6%;
+    font-weight: bold;
+}
+
+.div_1_footer , .div_2_footer, .div_3_footer {
+    position: relative;
+    left: 8%;
 }
