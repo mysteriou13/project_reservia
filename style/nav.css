@@ -11,7 +11,7 @@ padding-left: 4%;
 
 }
 
-#hebergement:hover , #activite:hover{
+#hebergement:active , #activite:active{
 
   border-top: 1px solid blue;
 
@@ -42,8 +42,6 @@ display: none;
 }
 
 .nav_box{
-
-  background-color: red;
   width: 36%;
   position: absolute;
   left: 62%;
