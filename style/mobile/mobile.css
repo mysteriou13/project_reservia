@@ -248,6 +248,7 @@ height: 6vh;
     font-weight: bold;
     position: absolute;
     top: 274%;
+    left:6%;
 }
 
 footer {
@@ -304,10 +305,10 @@ footer {
 
 .bordure_card_hergement {
     background-color: white;
-    width: 91%;
+    width: 93%;
     border: 1px solid white;
     border-radius: 20px 20px;
-    margin-left: 4%;
+    margin-left: 6%;
     margin-bottom: 5%;
 }
 
@@ -322,10 +323,10 @@ footer {
 }
 
 .div_activer_right {
-    width: 94%;
+    width: 93%;
     margin-right: 0%;
     border-radius: 30px;
-    margin-left: 2%;
+    margin-left: 3%;
 }
 
 .div_activer_left {
