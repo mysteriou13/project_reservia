@@ -40,7 +40,7 @@ width:100%;
         top: -186%;
         padding-top: 5%;
         padding-left: 4%;
-        left: 714%;
+        left: -390%;
     }
 
     #hebergement, #activite {
@@ -64,7 +64,7 @@ width:100%;
         list-style-type: none;
         position: relative;
         top: 84%;
-        left: -565%;
+        left: -609%;
         width: 21px;
        
     }
@@ -82,7 +82,15 @@ width:100%;
 
    
 
-        left: 770%;
+        left: -11%;
+
+    }
+
+    #hebergement,#activite{
+
+       
+        padding-right: 300%;
+        padding-left: 300%;
 
     }
 
