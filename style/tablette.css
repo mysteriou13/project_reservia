@@ -121,11 +121,11 @@ width:100%;
         color: white;
         cursor: pointer;
         background-color: blue;
-        width: 13%;
+        width: 10%;
         height: 130%;
         border: none;
         position: relative;
-        top: -159%;
+        top: -170%;
         left: 93%;
         border-radius: 10px;
     }
@@ -142,7 +142,7 @@ width:100%;
     width: 29px;
     height: 36px;
     position: relative;
-    left: 2%;
+    left: 0%;
     top: -28%;
     padding-left: ;
     padding-top: 4%;
@@ -253,13 +253,13 @@ height: 6vh;
 footer {
     background-color: #F2F2F2;
     margin-top: 4%;
-   
+
     display: flex;
     position: absolute;
     height: 100%;
     width: 100%;
     top: 533%;
-    display: block;
+
 }
 
 .populaire {
@@ -413,13 +413,14 @@ margin-left: 3%;
 
 .input_rechercher {
     border-top: 2px solid #F2F2F2;
-    border-bottom: 2px solid #F2F2F2;
-    height: 47px;
+    border-bottom-left-radius: 2px solid #F2F2F2;
+    height: 67px;
     position: relative;
     position: relative;
-    top: -19%;
+    top: -38%;
     border-left: 2px solid #F2F2F2;
-    width: 82%;
+    width: 87%;
+    left: -1%;
 }
 
 
@@ -429,14 +430,14 @@ margin-left: 3%;
     justify-content: space-between;
     width: 100%;
     position: relative;
-    left: 3%;
+    left: 0%;
     margin-bottom: 4%;
     margin-top: 7%;
 }
 
 .form_recherche{
    
-    width: 83%;
+    width: 100%;
 
 }
 
