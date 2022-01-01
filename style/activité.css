@@ -74,6 +74,15 @@ height: 100%;
 
 }
 
+.text_bas_activiter:hover{
+    position: relative;
+    top: 3%;
+    left: 6%;
+    font-weight: bold;
+    color:blue;
+
+}
+
 .card_fort{
 
     height: 54%;
@@ -89,6 +98,16 @@ height: 100%;
     top: -2%;
     left: 8%;
     font-weight: bold;
+
+}
+
+.text_fort:hover{
+
+    position: relative;
+    top: -2%;
+    left: 8%;
+    font-weight: bold;
+    color:blue;
 
 }
 
@@ -117,6 +136,16 @@ height: 100%;
     font-weight: bold;
 }
 
+.text_frioul:hover{
+
+    position: relative;
+    top: -8%;
+    left: 5%;
+    font-weight: bold;
+    color:blue;
+}
+
+
 .card_dame{
 box-shadow: 0px 0px 16px grey;
 height: 46%;
@@ -142,11 +171,31 @@ font-weight: bold;
 
 }
 
+.text_dame:hover{
+
+    position: relative;
+left: 23px;
+top: -13px;
+font-weight: bold;
+color:blue;
+
+}
+
 .text_parc{
 
     position: relative;
 left: 23px;
 top: -13px;
 font-weight: bold;
+
+}
+
+.text_parc:hover{
+
+    position: relative;
+left: 23px;
+top: -13px;
+font-weight: bold;
+color:blue;
 
 }

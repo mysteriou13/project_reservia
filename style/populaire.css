@@ -43,6 +43,14 @@ right: -6%;
 
 }
 
+.position_text_populaire:hover{
+
+  position: relative;
+right: -6%;
+ color:blue;
+
+}
+
 .position_start_populaire{
 
   position: relative;
@@ -64,6 +72,15 @@ margin-top: 6%;
 
 
 }
+
+
+.div_text_populaire:hover{
+
+  height: 50%;
+  margin-top: 6%;
+  
+  
+  }
 
 .titre_populaire{
 
