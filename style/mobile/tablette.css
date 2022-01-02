@@ -470,4 +470,15 @@ margin-left: 3%;
     top: 98%;
   }
 
+  .card_populaire {
+    background-color: white;
+    margin-left: 4%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 14px;
+    height: 16vh;
+    margin-right: 4%;
+    margin-bottom: 6%;
+  }
+  
 }
