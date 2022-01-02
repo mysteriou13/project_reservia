@@ -240,14 +240,14 @@ height: 6vh;
     display: block;
     height: 100%;
     position: absolute;
-    top: 283%;
+    top: 255%;
     width: 100%;
 }
 
 .titre_activiter {
     font-weight: bold;
     position: absolute;
-    top: 274%;
+    top: 246%;
     left:6%;
 }
 
@@ -326,7 +326,7 @@ footer {
     width: 93%;
     margin-right: 0%;
     border-radius: 30px;
-    margin-left: 3%;
+    margin-left: 4%;
 }
 
 .div_activer_left {
@@ -466,7 +466,7 @@ margin-left: 3%;
   .afficher_plus_hergement {
     position: absolute;
     left: 5%;
-    top: 98%;
+    top: 100%;
     font-weight: bold;
 }
 }
