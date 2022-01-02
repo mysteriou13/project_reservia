@@ -16,32 +16,6 @@ img{
   object-fit: cover;
 }
 
-
-.taille_icone_populaire{
-
-font-size: 1.5em;
-
-}
-
-
-.populaire{
-
-  background-color: #F2F2F2;
-
-  width: 59%;
-
-  margin-left: 1%;
-
-
-padding-bottom: 2%;
-
-border: 1px solid #F2F2F2;
-border-radius: 28px;
-
-}
-
-
-
 .box_sadown{
   
   box-shadow: 0px 0px 16px grey;
