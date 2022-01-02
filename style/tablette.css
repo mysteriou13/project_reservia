@@ -144,7 +144,7 @@ width:100%;
     position: relative;
     left: 0%;
     top: -28%;
-    padding-left: ;
+
     padding-top: 4%;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
@@ -412,8 +412,9 @@ margin-left: 3%;
 }
 
 .input_rechercher {
-    border-top: 2px solid #F2F2F2;
-    border-bottom-left-radius: 2px solid #F2F2F2;
+
+    border-color: #F2F2F2;
+
     height: 67px;
     position: relative;
     position: relative;
@@ -463,9 +464,10 @@ margin-left: 3%;
   
   }
 
-  .afficher_plus_hergement {
+  .afficher_plus_hergement{
     position: absolute;
     left: 5%;
     top: 98%;
-    font-weight: bold;
+  }
+
 }

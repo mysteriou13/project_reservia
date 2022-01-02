@@ -144,7 +144,7 @@ width:100%;
     position: relative;
     left: 2%;
     top: -28%;
-    padding-left: ;
+
     padding-top: 4%;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
@@ -468,4 +468,5 @@ margin-left: 3%;
     left: 5%;
     top: 98%;
     font-weight: bold;
+}
 }
