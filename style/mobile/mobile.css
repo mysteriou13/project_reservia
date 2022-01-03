@@ -45,7 +45,7 @@ width:100%;
 
     #hebergement, #activite {
 
-        top: 0%;
+        top: 56%;
 
     }
 
@@ -86,6 +86,13 @@ width:100%;
 
     }
 
+    #hebergement{
+
+        position: relative;
+left: -148%;
+
+    }
+
     #hebergement,#activite{
 
        
@@ -109,7 +116,7 @@ width:100%;
     left: 20%;
     position: relative;
     left: 2%;
-    top:20%;
+    top:25%;
     margin-top: 14%;
 
       }
@@ -240,15 +247,15 @@ height: 6vh;
     display: block;
     height: 100%;
     position: absolute;
-    top: 255%;
+    top: 299%;
     width: 100%;
 }
 
 .titre_activiter {
     font-weight: bold;
     position: absolute;
-    top: 246%;
-    left:6%;
+    top: 288%;
+    left: 6%;
 }
 
 footer {
@@ -259,7 +266,7 @@ footer {
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 533%;
+    top: 545%;
     display: block;
 }
 
@@ -272,7 +279,7 @@ footer {
     border-radius: 28px;
     height: 76vh;
     position: relative;
-    top: -77%;
+    top: -73%;
 }
 
 .hebergement {
@@ -284,13 +291,13 @@ footer {
     border-radius: 28px;
 
     position: absolute;
-    top: 27%;
+    top: 35%;
 
 }
 
 .titre_herbergement {
     position: relative;
-    top: 0%;
+    top: -1%;
     left: 5%;
     font-weight: bold;
     font-size: 1.3em;
@@ -437,7 +444,7 @@ margin-left: 3%;
 
 .form_recherche{
    
-    width: 83%;
+    width: 90%;
 
 }
 
@@ -466,7 +473,16 @@ margin-left: 3%;
   .afficher_plus_hergement {
     position: absolute;
     left: 5%;
-    top: 100%;
+    top: 101%;
     font-weight: bold;
 }
+
+#centre_ville{
+    
+    position: relative;
+    left: 2%;
+    top: 54%;
+
+}
+
 }
