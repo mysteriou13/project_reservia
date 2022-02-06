@@ -1,3 +1,12 @@
+.afficher_plus_hergement{
+
+  position: relative;
+top: -7%;
+left: 4%;
+font-weight: bold;
+
+}
+
 .padding_hergement{
 
     padding-top: 5%;

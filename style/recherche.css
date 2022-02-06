@@ -31,7 +31,7 @@ border-left: 2px solid #F2F2F2;
   justify-content: space-between;
   width: 41vh;
   position: relative;
-  left: 3%;
+  left: 2%;
   margin-bottom: 2%;
 
 }
@@ -53,7 +53,7 @@ background-color:blue; width:40%; border-top-right-radius: 10px 10px; border-bot
   height: 99%;
   border: none;
   position: relative;
-  top: -123%;
+  top: -120%;
   left: 75%;
 
 }
