@@ -372,9 +372,11 @@ footer {
     position: absolute;
     top: 182%;
   width: 95%;
-
   position: relative;
   left: 4%;
+  height: 25vh;
+
+
 }
 
 .card_parc {
