@@ -11,13 +11,24 @@ padding-left: 4%;
 
 }
 
-#hebergement:active , #activite:active{
+#hebergement:hover , #activite:hover{
 
   border-top: 1px solid blue;
 
   color:blue;
 
 }
+
+
+
+#link_hebergement:hover , #link_activiter:hover{
+
+  color:blue;
+
+}
+
+
+
 
 #inscrire{
 
