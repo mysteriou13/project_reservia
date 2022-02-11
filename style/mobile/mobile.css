@@ -252,22 +252,25 @@ height: 6vh;
 }
 
 .titre_activiter {
+
     font-weight: bold;
     position: absolute;
     top: 288%;
     left: 6%;
+
 }
 
 footer {
+   
     background-color: #F2F2F2;
     margin-top: 4%;
-   
     display: flex;
     position: absolute;
     height: 100%;
     width: 100%;
-    top: 545%;
+    top: 544%;
     display: block;
+
 }
 
 .populaire {
@@ -330,16 +333,21 @@ footer {
 }
 
 .div_activer_right {
-    width: 95%;
+
+    width: 90%;
     margin-right: 0%;
     border-radius: 30px;
     position: relative;
-    left: 4%;
+    left: 5%;
 
 }
 
 .div_activer_left {
-    width: 100%;
+   
+    width: 91%;
+position: relative;
+left: 5%;
+
 }
 
 
@@ -355,12 +363,15 @@ footer {
     box-shadow: 0px 0px 16px grey;
     border: 1px solid white;
     border-radius: 31px;
+    position: relative;
+    top: 5%;
+
 }
 
 .position_mobile_parc{
 
     position: relative;
-    top: -7%;
+    top: -3%;
     height: 44%;
 }
 
@@ -371,23 +382,22 @@ footer {
     border-radius: 31px;
     position: absolute;
     top: 182%;
-  width: 95%;
+
   position: relative;
-  left: 4%;
-  height: 25vh;
+ 
+  height: 26vh;
 
 
 }
 
 .card_parc {
     box-shadow: 0px 0px 16px grey;
-    height: 46%;
-    border-radius: 31px;
-    top: 23%;
-    position: absolute;
-    top: 232%;
-    width: 93%;
-    margin-left: 3%;
+height: 100%;
+border-radius: 31px;
+top: 23%;
+position: absolute;
+top: 115%;
+ 
 
 }
 
