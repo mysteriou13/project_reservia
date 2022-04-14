@@ -5,8 +5,11 @@ color:black;
 }
 
 body{
-font-family: Raleway;
 
+  font-family: Raleway;
+
+margin-left: 1%;
+margin-right: 2%;
 
 }
 
