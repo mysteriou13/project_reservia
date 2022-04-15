@@ -317,6 +317,7 @@ display: flex;
     top: 81%;
     position: absolute;
     top: 186%;
+    display: none;
 }
 
 .div_activer_right {
@@ -486,5 +487,17 @@ width: 100%;
 
 
   }
+
+  .Activiter {
+
+    position: relative;
+    left: 2%;
+    margin-top: 5%;
+    height: 61vh;
+    width: 97%;
+
+    
+    
+}
   
 }

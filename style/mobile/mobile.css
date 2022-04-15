@@ -247,7 +247,6 @@ height: 6vh;
     display: block;
     height: 100%;
     position: absolute;
-    top: 299%;
     width: 100%;
 }
 
@@ -255,7 +254,7 @@ height: 6vh;
 
     font-weight: bold;
     position: absolute;
-    top: 288%;
+
     left: 6%;
 
 }
@@ -329,8 +328,8 @@ footer {
     height: 61vh;
     top: 81%;
     position: absolute;
-    top: 186%;
-    display: none;
+    top: 362%;
+    display: block;
 
 }
 
