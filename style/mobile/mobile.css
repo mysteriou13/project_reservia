@@ -254,8 +254,10 @@ height: 6vh;
 
     font-weight: bold;
     position: absolute;
-
+    
     left: 6%;
+
+    top: -10%;
 
 }
 
@@ -328,7 +330,7 @@ footer {
     height: 61vh;
     top: 81%;
     position: absolute;
-    top: 362%;
+    top: 366%;
     display: block;
 
 }
@@ -428,6 +430,14 @@ top: 115%;
     top: -5%;
     left: 6%;
     font-weight: bold;
+}
+
+.text_bas_activiter:hover{
+    position: relative;
+    top: -5%;
+    left: 6%;
+    font-weight: bold;
+    color: blue;
 }
 
 .div_1_footer , .div_2_footer, .div_3_footer {
