@@ -31,7 +31,7 @@ border-left: 2px solid #F2F2F2;
   justify-content: space-between;
   width: 41vh;
   position: relative;
-  left: 2%;
+  left: 5%;
   margin-bottom: 2%;
 
 }
@@ -49,18 +49,28 @@ background-color:blue; width:40%; border-top-right-radius: 10px 10px; border-bot
   color: white;
   cursor: pointer;
   background-color: blue;
-  width: 38%;
-  height: 99%;
+  height: 47px;
   border: none;
   position: relative;
-  top: -120%;
-  left: 75%;
+  top: -20%;
+
+  padding: 16%;
+  font-size: 1.1em;
+
 
 }
 
 .div_icone_map{
 
-border-top-left-radius: 10px 10px; border-bottom-left-radius: 10px 10px;   background-color: #F2F2F2; width:20%
+  border-top-left-radius: 10px 10px;
+border-bottom-left-radius: 10px 10px;
+background-color: #F2F2F2;
+width: 11%;
+position: absolute;
+top: -20%;
+left: -11%;
+height: 100%;
+
 
 }
 
@@ -71,20 +81,13 @@ border-top-left-radius: 10px 10px; border-bottom-left-radius: 10px 10px;   backg
 }
 
 .position_icone_map{
-
-  background-color: #F2F2F2;
-  padding-left: 4%;
-  width: 29px;
-  height: 34px;
   position: relative;
-  left: 2%;
-  top: -21%;
-  
-  padding-top: 4%;
-  border-top-left-radius: 11px;
-  border-bottom-left-radius: 11px;
+  left: 38%;
+  top: 25%;
 
 }
+
+
 
 .container{
 

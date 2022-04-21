@@ -109,13 +109,31 @@ rel="stylesheet"
 
     <div class = "container_search">
           <form method = "POST" class = "form_recherche" action = "#">
-          <i class="fas fa-map-marker-alt position_icone_map" ></i>
-          <input type = "search" name = "rechercher" class = "input_rechercher" placeholder = "Marseille, France" id = "rechercher" />
-        <button id = "button" type = "button" class ="button_search">
+            
+            <div class = "flex">
+
+              <div class = "div_icone_map">
+                           
+                <i class="fas fa-map-marker-alt position_icone_map" ></i>
+    
+                </div>
+
+                <div>
+           <input type = "search" name = "rechercher" class = "input_rechercher" placeholder = "Marseille, France" id = "rechercher" />
+   
+           </div>
+           <div>
+    <button id = "button" type = "button" class ="button_search">
                 <span class ="secret"></span> <i class="fas fa-search" id = "search" ></i>
                <span id = "text_rechercher"> Rechercher </span>
-        </button>
-    </form>
+    </button>
+    </div>
+    
+</div>        
+        
+        </div>
+
+      </form>
     </div>
   </div>
 
