@@ -132,8 +132,7 @@ left: -148%;
         height: 130%;
         border: none;
         position: relative;
-        top: -159%;
-        left: 93%;
+    
         border-radius: 10px;
     }
 
@@ -471,7 +470,7 @@ top: 115%;
 
 .form_recherche{
    
-    width: 90%;
+    width: 100%;
 
 }
 

@@ -1,33 +1,35 @@
 footer{
 
   background-color: #F2F2F2;
-
   margin-top: 4%;
-  height: 20vh;
-width: 100%;
 
-display: flex;
+  width: 105%;
+  display: flex;
+  position: l;
+  position: relative;
+  left: -2%;
+
 
   }
 
   .div_1_footer{
 
     position: relative;
-  left: 3%;
+  left: 4%;
 
   }
 
   .div_2_footer{
 
     position: relative;
-left: 26%;
+left: 22%;
 
   }
   
   .div_3_footer{
 
   position: relative;
-   left: 42%;
+   left: 48%;
 
   }
   
