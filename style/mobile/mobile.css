@@ -123,18 +123,12 @@ left: -148%;
 
 
       .button_search {
-        border-top-right-radius: 10px 10px;
-        border-bottom-right-radius: 10px 10px;
         color: white;
         cursor: pointer;
         background-color: blue;
-        width: 13%;
-        height: 130%;
+        width: 100%;
         border: none;
-        position: relative;
-    
-        border-radius: 10px;
-    }
+      }
 
  #text_rechercher{
 
@@ -142,18 +136,24 @@ left: -148%;
 
 }
 
+.div_secret_but{
+    position: relative;
+left: 21%;
+width: 16%;
+}
+
 .position_icone_map {
-    background-color: #F2F2F2;
+   
     padding-left: 4%;
     width: 29px;
     height: 36px;
     position: relative;
-    left: 2%;
-    top: -28%;
-
+    left: 31%;
+    top: 22%;
     padding-top: 4%;
     border-top-left-radius: 11px;
     border-bottom-left-radius: 11px;
+    padding-top: 5%;
 }
 
 .filtre {
@@ -453,7 +453,9 @@ top: 115%;
     position: relative;
     top: -19%;
     border-left: 2px solid #F2F2F2;
-    width: 82%;
+    width: 118%;
+    left: 19%;
+
 }
 
 
@@ -512,6 +514,18 @@ top: 115%;
 
 }
 
+.div_icone_map {
+
+    border-top-left-radius: 10px 10px;
+    border-bottom-left-radius: 10px 10px;
+    width: 13%;
+    position: absolute;
+    top: -20%;
+    left: -2%;
+    height: 100%;
+    background-color: #F2F2F2;
+
+  }
 
 
 }
