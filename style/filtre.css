@@ -179,3 +179,16 @@ background-color: #DEEBFF;
  display: flex;
 
 }
+
+
+
+.icone_child{
+  border-radius: 25px;
+color: #0065fc;
+
+position: relative;
+left: 32%;
+font-size: 134%;
+top: 30%;
+
+}
