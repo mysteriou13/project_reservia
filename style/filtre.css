@@ -12,7 +12,7 @@
 
   left: 3%;
 
-  width: 97%;
+  width: 100%;
 
 
 }
@@ -21,29 +21,83 @@
 
   font-size: 20px;
   margin-left: 3%;
- width: 17vh;
+ width: 38vh;
 
 }
+
+.width_romantique {
+
+
+  width: 24vh;
+  margin-left: 9%;
+  font-size: 20px;
+}
+
+.text_romatique{
+
+  position: relative;
+top: 21%;
+
+}
+
+
+.text_animaux{
+
+  position: relative;
+top: 21%;
+
+}
+
+.width_animaux{
+
+  
+  font-size: 19px;
+  width: 29vh;
+  margin-left: 5%;
+
+}
+
+
+@media all  and (min-height: 710px) {
+
+
+  .width_eco{
+
+   
+
+    width: 30vh;
+
+  }
+
+  .width_romantique {
+    width: 17vh;
+
+ 
+  }
+
+
+
+}
+
+
+
 .width_famille{
 
   width: 15vh;
   margin-left: 4%;
   font-size: 23px;
 }
-.width_romantique {
 
-  width: 17vh;
-margin-left: 2%;
-font-size: 20px;
+.text_famille{
 
-}
-
-.width_animaux{
-
-  width: 22vh;
-  font-size: 19px;
+  position: relative;
+  top: 17%;
+  left: 5%;
 
 }
+
+
+
 
 .div_info{
 
@@ -114,7 +168,7 @@ background-color:#DEEBFF;
   border-radius: 50%;
   display: inline-block;
   position: relative;
-  left: -4%;
+  left: -3%;
   transform: scale(1.1);
 
 }
@@ -135,7 +189,8 @@ background-color:#DEEBFF;
 .text_icone{
 
   padding-top: 5%;
-
+  position: relative;
+  top: -15%;
 
 }
 
@@ -145,12 +200,9 @@ background-color:#DEEBFF;
 
   border: 2px solid #d9d9d9;
 
-
   border-radius: 100px;
 
   margin-right: 4%;
-
-  width: 33vh;
 
 
 }
@@ -190,5 +242,16 @@ position: relative;
 left: 32%;
 font-size: 134%;
 top: 30%;
+
+}
+
+
+
+.text_eco{
+
+  margin-left: 6%;
+
+  position: relative;
+top: 26%;
 
 }
