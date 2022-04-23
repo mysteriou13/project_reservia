@@ -178,9 +178,8 @@ width: 16%;
 #romantique{
 
     margin-bottom: 9%;
-
-    width: 25vh;
-height: 6vh;
+    width: 28vh;
+    height: 7vh;
 
 }
 
@@ -188,16 +187,10 @@ height: 6vh;
 .bordure_filtre{
 
     display: flex;
-  
     border: 2px solid #d9d9d9;
-  
-  
     border-radius: 100px;
-  
     margin-right: 4%;
-
-    width: 18vh;
-    height: 6vh;
+    width: 19vh;
   
   }
 
@@ -205,16 +198,16 @@ height: 6vh;
   .width_eco {
     font-size: 17px;
     margin-left: 3%;
-    width: 20vh;
+    width: 45%;
     margin-top: 2%;
-    height: 6vh;
+    height: 7vh;
 }
 
 
 
 .width_famille {
     font-size: 17px;
-    margin-top: 3%;
+    margin-top: 9%;
 }
   
 .div_text_filtre {
@@ -545,7 +538,7 @@ left: -4%;
     background-color:#DEEBFF;
     
     height: 52px;
-    width: 61px;
+    width: 48px;
     
       border-radius: 50%;
       display: inline-block;
@@ -555,5 +548,20 @@ left: -4%;
     
     }
 
+    .position_famille{
 
+        position: absolute;
+        top: 13%;
+        left: 53%;
+
+
+    }
+
+    .bordure_animaux{
+
+ 
+        width: 34vh;
+        height: 7vh;
+
+    }
 }
