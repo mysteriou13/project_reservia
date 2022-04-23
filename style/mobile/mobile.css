@@ -138,7 +138,7 @@ left: -148%;
 
 .div_secret_but{
     position: relative;
-left: 21%;
+left: 19%;
 width: 16%;
 }
 
@@ -266,6 +266,7 @@ footer {
     width: 100%;
     top: 544%;
     display: block;
+    left:0%;
 
 }
 
@@ -278,7 +279,7 @@ footer {
     border-radius: 28px;
     height: 76vh;
     position: relative;
-    top: -73%;
+    top: -65%;
 }
 
 .hebergement {
@@ -516,9 +517,9 @@ top: 115%;
     border-bottom-left-radius: 10px 10px;
     width: 13%;
     position: absolute;
-    top: -20%;
+    top: -26%;
     left: -2%;
-    height: 100%;
+    height: 6.4vh;
     background-color: #F2F2F2;
 
   }
