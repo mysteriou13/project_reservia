@@ -89,10 +89,9 @@ top: 21%;
 }
 
 .text_famille{
-
   position: relative;
-  top: 17%;
-  left: 5%;
+  top: 18%;
+  left: 6%;
 
 }
 
@@ -162,7 +161,7 @@ top: 11%;
 
 background-color:#DEEBFF;
 
-  height: 45px;
+
   width: 45px;
 
   border-radius: 50%;
@@ -172,6 +171,35 @@ background-color:#DEEBFF;
   transform: scale(1.1);
 
 }
+
+
+.bordure_eco {
+  background-color: #DEEBFF;
+ 
+  width: 45px;
+  border-radius: 50%;
+  display: inline-block;
+  position: relative;
+  left: -3%;
+  transform: scale(1.1);
+}
+
+
+.bordure_famille{
+
+  background-color:#DEEBFF;
+  
+  height: 45px;
+  width: 45px;
+  
+    border-radius: 50%;
+    display: inline-block;
+    position: relative;
+    left: -3%;
+    transform: scale(1.1);
+  
+  }
+
 
 .icone{
   position: relative;
@@ -191,6 +219,9 @@ background-color:#DEEBFF;
   padding-top: 5%;
   position: relative;
   top: -15%;
+
+  font-size: 17px;
+margin-top: 3%;
 
 }
 

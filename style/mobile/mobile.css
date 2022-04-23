@@ -160,8 +160,8 @@ width: 16%;
     display: block;
     border: none;
     position: relative;
-    left: 3%;
-    width: 68%;
+    left: 0%;
+    width: 100%;
 }
 
 .cadre_filtre {
@@ -195,8 +195,8 @@ height: 6vh;
     border-radius: 100px;
   
     margin-right: 4%;
-  
-    width: 33vh;
+
+    width: 18vh;
     height: 6vh;
   
   }
@@ -205,9 +205,12 @@ height: 6vh;
   .width_eco {
     font-size: 17px;
     margin-left: 3%;
-    width: 16vh;
+    width: 20vh;
     margin-top: 2%;
+    height: 6vh;
 }
+
+
 
 .width_famille {
     font-size: 17px;
@@ -526,6 +529,31 @@ top: 115%;
     background-color: #F2F2F2;
 
   }
+
+  .box_filtre_1 {
+    display: flex;
+    width: 107%;
+  
+    position: relative;
+left: -4%;
+
+
+  }
+
+  .bordure_famille{
+
+    background-color:#DEEBFF;
+    
+    height: 52px;
+    width: 61px;
+    
+      border-radius: 50%;
+      display: inline-block;
+      position: relative;
+      left: -3%;
+      transform: scale(1.1);
+    
+    }
 
 
 }
