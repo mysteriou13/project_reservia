@@ -576,6 +576,43 @@ width: 16%;
 
   @-moz-document url-prefix() {
 
+    @media all  and (max-width: 408px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 528%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (min-width: 409px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 528%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
 
     @media all  and (min-width: 414px){
     
