@@ -19,6 +19,34 @@ footer{
 
   }
 
+  @media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+  
+
+footer{
+
+  position: absolute;
+  top: 188%;
+
+}   
+
+  }
+
+  @-moz-document url-prefix() {
+
+    
+
+    footer{
+
+      position: absolute;
+      top: 184%;
+    
+    }    
+
+  }
+
+    
+
+
   .div_2_footer{
 
     position: relative;

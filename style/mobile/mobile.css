@@ -243,6 +243,7 @@ width: 16%;
     height: 100%;
     position: absolute;
     width: 100%;
+    left: -3%;
 }
 
 .titre_activiter {
@@ -256,19 +257,497 @@ width: 16%;
 
 }
 
-footer {
-   
-    background-color: #F2F2F2;
-    margin-top: 4%;
-    display: flex;
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    top: 544%;
-    display: block;
-    left:0%;
+
+
+
+
+@media screen and (-webkit-min-device-pixel-ratio:0) and (min-resolution:.001dpcm) {
+
+
+    @media all  and (max-width: 372px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 502%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+    @media all  and (max-width: 375px) {
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 532%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (max-width: 459px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 512%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (min-width: 451px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 513%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+    @media all  and (min-width: 450px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 512%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+    @media all  and (min-width: 468px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 518%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+    
+    @media all  and (min-width: 494px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 515%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (min-width: 510px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 517%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+
+    @media all  and (min-width: 520px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 520%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    
+    @media all  and (min-width: 550px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 521%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (min-width: 566px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 524%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+    
+    @media all  and (min-width: 588px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 525%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+    
+    @media all  and (min-width: 626px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 533%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+      
+    
+    
+      @media all  and (min-width: 627px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 530%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
+    @media all  and (min-width: 628px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 555%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+
+    @media all  and (min-width: 629px){
+        
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 529%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+    
 
 }
+
+
+
+
+  @-moz-document url-prefix() {
+
+
+    @media all  and (min-width: 414px){
+    
+        footer {
+       
+            background-color: #F2F2F2;
+        margin-top: 4%;
+    
+        position: absolute;
+        height: 100%;
+        width: 105%;
+        top: 528%;
+        display: block;
+        left: 0%;
+        
+        }
+    
+    }
+
+
+    @media all  and (min-width: 452px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 533%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+
+@media all  and (min-width: 468px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 536%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+
+@media all  and (min-width: 494px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 540%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+@media all  and (min-width: 550px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 544%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+@media all  and (min-width: 588px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 548%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+
+@media all  and (min-width: 626px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 533%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+  
+
+
+  @media all  and (min-width: 627px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 555%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+@media all  and (min-width: 628px){
+    
+    footer {
+   
+        background-color: #F2F2F2;
+    margin-top: 4%;
+
+    position: absolute;
+    height: 100%;
+    width: 105%;
+    top: 555%;
+    display: block;
+    left: 0%;
+    
+    }
+
+}
+
+}
+
 
 .populaire {
     background-color: #F2F2F2;
@@ -343,7 +822,7 @@ footer {
 
 .div_activer_left {
    
-    width: 91%;
+    width: 100%;
 position: relative;
 left: 5%;
 
@@ -354,6 +833,8 @@ left: 5%;
 .height_mobile_fort {
     height: 95%;
     margin-top: 6%;
+    width: 100%;
+
 }
 
 .card_frioul {
@@ -372,6 +853,7 @@ left: 5%;
     position: relative;
     top: -3%;
     height: 44%;
+    width: 100%;
 }
 
 .card_dame {
@@ -396,7 +878,7 @@ border-radius: 31px;
 top: 23%;
 position: absolute;
 top: 115%;
- 
+ width: 100%;
 
 }
 
@@ -418,6 +900,7 @@ top: 115%;
 .height_mobile_activiter{
 
     height: 42%;
+    width: 100%;
 
 }
 
