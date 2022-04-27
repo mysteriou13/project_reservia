@@ -5,7 +5,6 @@ footer{
 
   width: 105%;
   display: flex;
-  position: l;
   position: relative;
   left: -2%;
 
@@ -25,11 +24,12 @@ footer{
 footer{
 
   position: absolute;
-  top: 188%;
+  top: 176%;
+}
 
 }   
 
-  }
+  
 
   @-moz-document url-prefix() {
 

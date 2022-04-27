@@ -311,9 +311,10 @@ width: 16%;
         position: absolute;
         height: 100%;
         width: 105%;
-        top: 512%;
+     
         display: block;
         left: 0%;
+        top: 530%;
         
         }
     
@@ -1037,11 +1038,10 @@ top: 115%;
     border-bottom-left-radius: 10px 10px;
     width: 13%;
     position: absolute;
-    top: -26%;
+    top: -29%;
     left: -2%;
-    height: 6.4vh;
+    height: 138%;
     background-color: #F2F2F2;
-
   }
 
   .box_filtre_1 {

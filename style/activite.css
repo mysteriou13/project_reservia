@@ -9,7 +9,7 @@ width: 142%;
 
 }
 
-@-moz-document url-prefix() {
+@-moz-document url-prefix(){
 .Activiter{
 
     position: relative;
