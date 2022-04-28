@@ -137,10 +137,12 @@ left: -148%;
 }
 
 .div_secret_but{
+  
     position: absolute;
-    left: 79%;
+    left: 84%;
     width: 13%;
     top: -28%;
+
 }
 
 .position_icone_map {
@@ -582,8 +584,9 @@ width: 100%;
     position: absolute;
     top: -28%;
     left: -2%;
-    height: 4.4vh;
+    height: 100%;
     background-color: #F2F2F2;
+}
 
   }
 
