@@ -140,7 +140,7 @@ left: -148%;
   
   
     position: absolute;
-    left: 84%;
+    left: 78%;
     width: 13%;
     top: -28%;
 
@@ -631,8 +631,6 @@ left: -4%;
         width: 43%;
         height: 4vh;
         position: relative;
-        left: 3%;
-
+        left: 9%;
     }
   
-}
